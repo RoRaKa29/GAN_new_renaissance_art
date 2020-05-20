@@ -6,7 +6,7 @@ This repository contains sample code which includes resizing of the pictures to 
 You can view “GAN_new_renaissance_art” directly on github, or clone the repository, install the dependencies listed and play with code locally. As well it contains a little part of the input and results of the model.
 
 ## How does it work?
- This GAN combines two networks: Discriminator ,which defines the real(database images) and fake images, and Generator, which generates noise creating new pictures. After generating new pictures by Generator network the output is send to discriminator to give feedback. 
+ This GAN combines two networks: Discriminator ,which defines the real(database images) and fake images, and Generator, which generates noise creating new pictures. After generating new pictures by Generator network the output is sent to discriminator to give feedback. 
  
  In our model database is recreated into array in order to increase the speed of the GAN model. What is more it is printing the ongoing epoches which gives feedback on the process. Both networks are learning constantly with each epoch. The outcome is being saved after each 100 epoch.
  
